@@ -824,35 +824,3 @@ class UI:
 if __name__=="__main__":
     ui=UI()
     ui.LoginPage()
-
-
-    # username = "20440225"
-    # password = "Amelia,520"
-    # spider = CCZUVPN()
-    # spider.Login(username, password, mode='status')
-    # portalspider=spider.Portal()
-    # data=portalspider.GetScore()
-    # print(data)
-    # portalspider.SaveScoreToXls(data)
-
-    # with open("stuinfo.json") as f_obj:
-    # 	stuinfo = json.load(f_obj)  #读取文件
-    # print(stuinfo)
-    # for i in range(len(stuinfo)):
-    #     username1 = stuinfo[i][0]
-    #     password1 = stuinfo[i][1][-6:]
-    #     spider=CCZUVPN(username1,password1,mode=True)
-    #     portalspider=spider.Portal()
-    #     data=portalspider.GetScore()
-
-    # portalspider.GetProfile()
-    # portalspider.ModifyProfile()
-    # for i in range(1, 31, 1):
-    #     s = ''
-    #     if i < 10: s = '0'
-    #     s = s + str(i);
-    #     print(s)
-    #     portalspider.GetPhoto('20411031'+s,'photo3')
-    # cardspider=spider.Card('19440209')
-    # cardspider.GetProfile()
-    # print(cardspider.QueryFlow())
